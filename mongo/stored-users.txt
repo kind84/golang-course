@@ -1,0 +1,1 @@
+{"118d0014-8aba-4470-99cd-d8004b13cbf4":{"id":"118d0014-8aba-4470-99cd-d8004b13cbf4","name":"Giovanni","gender":"male","age":18},"2fd9b89f-dd5f-4c4c-982c-13afe8613b03":{"id":"2fd9b89f-dd5f-4c4c-982c-13afe8613b03","name":"Maria","gender":"female","age":26},"9927f568-76c2-4920-bbcf-f5a27c6a1f62":{"id":"9927f568-76c2-4920-bbcf-f5a27c6a1f62","name":"Paolo","gender":"male","age":34}}

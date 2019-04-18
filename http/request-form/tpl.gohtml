@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  {{if .}}
+    {{range $key, $val := .}}
+      <ul>
+        <li>
+          {{$key}}
+          {{range $val}}
+            <ul>
+              <li>{{.}}</li>
+            </ul>
+          {{end}}
+        </li>
+      </ul>
+    {{end}}
+  {{end}}
+  <form action="/" method="POST">
+    <input type="text" name="fmInput">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

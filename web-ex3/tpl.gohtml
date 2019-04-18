@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+{{range .Restaurants}}
+<h1>{{.Name}}</h1>
+<hr>
+<h2>Menu:</h3>
+<br>
+<h3>Breakfast</h3>
+
+    <ul>
+        {{range .Menu.Breakfast}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+
+    <h3>Lunch</h3>
+
+    <ul>
+        {{range .Menu.Lunch}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+
+    <h3>Dinner</h3>
+
+    <ul>
+        {{range .Menu.Dinner}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+{{end}}
+</body>
+</html>
